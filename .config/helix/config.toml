@@ -1,4 +1,4 @@
-theme = "tokyonight_moon"
+theme = "dark-synthwave"
 [editor]
 mouse = false
 cursorline = true
@@ -13,5 +13,11 @@ popup-border = "all"
 display-messages = false
 display-progress-messages = true
 
+[editor.inline-diagnostics]
+cursor-line = "hint" # エラーメッセージなどをインラインにする
+
+[keys.normal]
+tab = ":buffer-next"
+S-tab = ":buffer-previous"
 [keys.insert]
 j = { k = "normal_mode" }
