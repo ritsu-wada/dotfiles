@@ -51,17 +51,16 @@ language-servers = ["clangd"]
 
 [[language]]
 name = "cpp"
-scope = "source.cpp"
-file-types=["cpp","c","ino","cxx","h","hpp","ino"]
-roots=["sketch.yaml","arduino-cli.yaml","sketch.json",".git"]
-language-servers = [{ name = "arduino-lsp" },"clangd"]
+file-types=["cpp","ino","cxx","h","hpp"]
+roots=["sketch.yaml","sketch.json",".git"]
+language-servers = [""]
 
-[language-server.arduino-lsp]
-command = "arduino-language-server"
-args = [
-  "-cli", "arduino-cli",
-  "-clangd","clangd",
-  "-fqbn", "arduino:renesas_uno:uno_r4_wifi",
-  "-cli-config", "/home/ritsu/.arduino15/arduino-cli.yaml"
-]
+# [language-server.arduino-lsp]
+# command = "arduino-language-server"
+# args = [
+#   "-cli", "arduino-cli",
+#   "-clangd","clangd",
+#   "-fqbn", "arduino:renesas_uno:unor4wifi",
+#   "-cli-config", "/home/ritsu/.arduino15/arduino-cli.yaml"
+# ]
 
