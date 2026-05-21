@@ -1,4 +1,4 @@
-theme = "dark-synthwave"
+theme = "starlight"
 [editor]
 mouse = false
 cursorline = true
