@@ -421,7 +421,7 @@ session_serialization false
 //   - true
 //   - false (default)
 // 
-// serialize_pane_viewport false
+serialize_pane_viewport true
  
 // Scrollback lines to serialize along with the pane viewport when serializing sessions, 0
 // defaults to the scrollback size. If this number is higher than the scrollback size, it will
@@ -507,7 +507,7 @@ session_serialization false
 // Whether to show tips on startup
 // Default: true
 // 
-show_startup_tips false
+// show_startup_tips false
  
 // Whether to show release notes on first version run
 // Default: true

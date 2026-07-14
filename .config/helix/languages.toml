@@ -49,11 +49,11 @@ name = "c"
 scope = "source.c"
 language-servers = ["clangd"]
 
-[[language]]
-name = "cpp"
-file-types=["cpp","ino","cxx","h","hpp"]
-roots=["sketch.yaml","sketch.json",".git"]
-language-servers = [""]
+# [[language]]
+# name = "cpp"
+# file-types=["cpp","cxx","h","hpp"]
+# roots=["sketch.json",".git",".git"]
+# language-servers = ["clangd"]
 
 # [language-server.arduino-lsp]
 # command = "arduino-language-server"
